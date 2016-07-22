@@ -1,0 +1,150 @@
+/*Move down contenet because we have a fixed nav bar */
+body {
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+ul.nav {
+	font-family: 'Arvo', courier, serif;
+	text-align: center;
+
+}
+
+#get-involved {
+	background-color: #e2e2e2;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.jumbotron {
+	text-align: center;
+	background-image: url('../images/15.jpg');
+	color: white;
+
+}
+
+.jumbotron h1 {
+
+	font-family: 'Arvo', courier, serif;
+
+}
+
+.jumbotron p {
+	font-family: 'Arvo', courier, serif;
+	font-weight: 100;
+	font-size: 16px;
+
+}
+
+.btn-lg {
+		font-size: 28px;
+}
+
+.homepage {
+	
+	text-align: center;
+
+}
+
+.homepage h2, .homepage h3 {
+
+	font-family: 'Arvo', courier, serif;
+	text-align: center;
+	text-transform: uppercase;
+	color: #005daa;
+
+
+}
+
+.homepage h2 {
+	font-size: 36px
+	color: #005daa;
+
+
+}
+
+.homepage h3 {
+	font-size: 26px
+
+}
+
+.homepage p {
+
+	font-size: 15px;
+	font-weight: 300;
+	margin-bottom: 30px;
+	margin-bottom: 30px;
+
+}
+
+.homepage a {
+	color: #005daa
+
+}
+
+.homepage hr {
+
+	border-top: 1px solid #005daa;
+	width: 160px;
+	margin-top: 15px;
+}
+
+.homepage a:hover {
+	text-decoration: none;
+	opacity: .8
+
+}
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) { 
+
+	.jumbotron h1 {
+		font-size: 56px;
+		margin-bottom: 30px;
+	}
+
+}
+
+@media (max-width: 991px) { 
+
+	.jumbotron h1 {
+		font-size: 44px;
+	}
+
+	.jumbotron p {
+		padding: 0 10px;
+	}
+
+	#get-involved .col-md-4 {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+}
+
+@media (max-width: 767px) { 
+
+	.jumbotron h1 {
+		font-size: 24px;
+	}
+
+	.jumbotron p {
+		font-size: 16px;
+		padding: 0;
+	}
+
+	.btn-lg {
+		font-size: 18px;
+	}
+
+	.homepage p {
+		font-size: 18px;
+	}
+
+	footer img {
+		width: 80%;
+	}
+
+}
